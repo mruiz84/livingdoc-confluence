@@ -114,6 +114,11 @@
 	<component key="livingdoc.settings.listener" name="LivingDoc Settings Listener"
 			   class="info.novatec.testit.livingdoc.confluence.listeners.LivingDocSettingsListener" />
 
+	<component
+			name="LivingDoc Upgrade Version Listener"
+			class="info.novatec.testit.livingdoc.confluence.listeners.UpgradeVersionListener"
+			key="livingdoc.upgrade.version.listener"/>
+
 	<!-- LivingDoc Confluence PlugIn as GPS -->
 	<component key="livingDocServerConfigurationActivator"
 			   name="LivingDoc Server Configuration Activator"
